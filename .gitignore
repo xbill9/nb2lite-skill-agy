@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.jpg
+!devto-cover.jpg
+*.png
+*.webp
+.agents/
+.ruff_cache
+.mypy_cache
+.env
+.mcp.json
