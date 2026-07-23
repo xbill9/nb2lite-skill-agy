@@ -49,7 +49,7 @@ class TestNB2LiteAgent(unittest.TestCase):
             result = generate_image(
                 prompt="test prompt",
                 aspect_ratio="1:1",
-                thinking_level="medium",
+                thinking_level="low",
             )
             self.assertIn("🟢 Image successfully saved!", result)
             self.assertIn("int_123", result)
@@ -65,7 +65,7 @@ class TestNB2LiteAgent(unittest.TestCase):
         mock_get_client.return_value = mock_client
 
         result = generate_image(
-            prompt="test prompt", aspect_ratio="1:1", thinking_level="medium"
+            prompt="test prompt", aspect_ratio="1:1", thinking_level="low"
         )
         self.assertIn("🟢 Interaction completed successfully.", result)
         self.assertIn("No direct image output was found", result)
