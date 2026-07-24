@@ -32,4 +32,4 @@ for f in server.py requirements.txt; do
     fi
 done
 
-exec bash "$INSTALLER" "$@"
+bash "$INSTALLER" "$@"
