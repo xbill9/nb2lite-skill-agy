@@ -2,7 +2,7 @@
 title: "Teaching Antigravity & Claude Code to Paint: A Stateful Image-Editing Skill Built on Gemini's Interactions API and MCP"
 published: false
 description: "How nb2lite-skill-agy packages Google's gemini-3.1-flash-lite-image as an Antigravity and Claude Code skill + MCP server — with multi-turn stateful edits, an idiot-proof install guide, and a dogfooded cover image."
-tags: ai, antigravity, claudecode, gemini, mcp
+tags: ai, antigravity, gemini, mcp
 cover_image: https://raw.githubusercontent.com/xbill9/nb2lite-skill-agy/main/devto-cover.jpg
 ---
 
